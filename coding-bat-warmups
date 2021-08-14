@@ -1,0 +1,32 @@
+#warm-up 1 from CodingBat: Sleep In 
+
+def sleep_in(weekday, vacation): 
+    if not weekday or vacation: 
+        return True 
+    else: 
+        return False 
+    
+#warm-up 2: String Times 
+
+def string_times(str1,num1): 
+    return print(str1*int(num1))
+
+string_times("hi","3")
+
+#warm-up 3: Make Greeting 
+
+def make_greeting(name): 
+    return print("Hello, " + name + "!")
+                 
+make_greeting("Alice")
+
+#warm-up 4: First/Last 
+
+def first_last(set):
+    if set[0]==6 or set[-1]==6:
+        return True
+    else: 
+        return False 
+    
+set = 0,3,4,5,6,7,3,2,2,5,7,8,9,6,6
+first_last(set)
